@@ -3,23 +3,35 @@
 проект, генерирующий CSV и HTML отчёты
 
 ## Описание проекта:
-* `Generator` - генерирует файл `data.csv`
-* `Reporter` - читает `data.csv` и создаёт HTML отчёт `report.html`
+* **`Generator`** - генерирует файл `data.csv`
+* **`Reporter`** - читает `data.csv` и создаёт HTML отчёт `report.html`
 
 
 ## Структура проекта:
 
 HW 
+
 |–– data 
+
+
 |–– generator 
+
 | |–– generate.py 
+
 │ |–– Dockerfile 
+
 |–– local_data 
+
 |–– reporter 
+
 | |–– report.js 
+
 | |–– package.json 
+
 | |–– Dockerfile 
+
 |–– .gitignore
+
 |–– run.sh 
 
  ## Команды:
@@ -67,7 +79,7 @@ HW
 `./run.sh inside_reporter`
 
 
-*После выполнения команд* `./run.sh run_generator` и `./run.sh run_reporter` в `data` появляются файлы с отчётами: `data.csv` и `report.html`
+*После выполнения команд* `./run.sh run_generator` *и* `./run.sh run_reporter` *в* `data` *появляются файлы с отчётами:* `data.csv` *и* `report.html`
 
 ## Автор
 
